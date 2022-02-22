@@ -31,16 +31,16 @@
       "location": "Greenpoint"
     },
     {
-      "id": 6,
-      "description": "Beautiful couch",
-      "image": "./images/couch.jpg",
-      "location": "Bay Ridge"
+      "description": "desc",
+      "image": "img",
+      "location": "loc",
+      "id": 6
     },
     {
-      "id": 7,
-      "description": "Treadmill Parts For Free",
-      "image": "./images/treadmill.jpg",
-      "location": "East Flatbush"
+      "description": "asdasd",
+      "image": "123123",
+      "location": "zxczxc",
+      "id": 7
     }
   ]
 }

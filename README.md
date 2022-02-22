@@ -30,12 +30,12 @@ in the browser to verify that your backend is working before you proceed!
 
 As a user:
 
-1. When the app starts, I can see all listings.
-2. I can "favorite" and "unfavorite" a listing on the frontend by clicking the
-   star icon. This feature doesn't need backend persistence.
-3. I can remove a listing from the page by clicking the trash can icon. This
-   change should be persisted in the backend.
-4. I can search for listings by their name.
+<!-- 1. When the app starts, I can see all listings. -->
+<!-- 2. I can "favorite" and "unfavorite" a listing on the frontend by clicking the star icon. This feature doesn't need backend persistence. -->
+
+<!-- 3. I can remove a listing from the page by clicking the trash can icon. This change should be persisted in the backend. -->
+
+<!-- 4. I can search for listings by their name. -->
 
 ### Endpoints for Core Deliverables
 
@@ -47,18 +47,18 @@ Example Response:
 
 ```json
 [
-  {
-    "id": 1,
-    "description": "heater",
-    "image": "./images/heater.jpg",
-    "location": "BROOKLYN"
-  },
-  {
-    "id": 2,
-    "description": "2019 Toyota Tacoma grill",
-    "image": "./images/toyota-grill.jpg",
-    "location": "Williamsburg"
-  }
+	{
+		"id": 1,
+		"description": "heater",
+		"image": "./images/heater.jpg",
+		"location": "BROOKLYN"
+	},
+	{
+		"id": 2,
+		"description": "2019 Toyota Tacoma grill",
+		"image": "./images/toyota-grill.jpg",
+		"location": "Williamsburg"
+	}
 ]
 ```
 
@@ -104,9 +104,9 @@ Request Object:
 
 ```json
 {
-  "description": "heater",
-  "image": "./images/heater.jpg",
-  "location": "BROOKLYN"
+	"description": "heater",
+	"image": "./images/heater.jpg",
+	"location": "BROOKLYN"
 }
 ```
 
@@ -114,9 +114,9 @@ Example response:
 
 ```json
 {
-  "id": 1,
-  "description": "heater",
-  "image": "./images/heater.jpg",
-  "location": "BROOKLYN"
+	"id": 1,
+	"description": "heater",
+	"image": "./images/heater.jpg",
+	"location": "BROOKLYN"
 }
 ```
